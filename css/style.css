@@ -1,3 +1,28 @@
+/* Common */
+a {
+    text-decoration: none;
+}
+/* colors */
+.ms_black {
+    color: black;
+}
+/* buttons */
+.ms_button {
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+    padding: .3rem .8rem .2rem;
+}
+.gray_button {
+    background-color: #363636;
+    color: white;
+}
+
+
+
+
+
+
 /* HEADER */
 
 /* Nav-top */
@@ -12,6 +37,13 @@
 }
 /* Nav-bottom */
 
+/* Menu-left */
 .nav-link img {
     width: 1rem;
+}
+
+/* Menu-right */
+
+.ms_menu_right ul li {
+    margin-right: 1rem;
 }

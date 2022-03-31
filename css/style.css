@@ -1,4 +1,6 @@
 /* HEADER */
+
+/* Nav-top */
 .black_bar {
     height: 50px;
     line-height: 50px;
@@ -7,4 +9,9 @@
 .black_bar img {
     width: 5rem;
     margin-right: 1rem;
+}
+/* Nav-bottom */
+
+.nav-link img {
+    width: 1rem;
 }

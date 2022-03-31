@@ -2,6 +2,9 @@
 a {
     text-decoration: none;
 }
+img {
+    width: 100%;
+}
 /* colors */
 .ms_black {
     color: black;
@@ -68,4 +71,10 @@ a {
     font-weight: 500;
     margin-bottom: 2rem;
     margin-top: .5rem;
+}
+/* Game-gallery */
+.img_wrapper {
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 1rem auto
 }

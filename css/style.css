@@ -75,12 +75,25 @@ header {
     padding: 20rem 0 2rem;
     margin-top: 100px;
     color: white;
+   
+}
+.bg_returnal {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .returnal_logo {
+    width: 19rem;
+    margin-left: .5rem;
+}
+.bg_itakes2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.itakes2_logo {
     width: 19rem;
     margin-left: .5rem;
 }

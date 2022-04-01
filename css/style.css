@@ -1,6 +1,7 @@
 /* Common */
 a {
     text-decoration: none;
+    color: inherit;
 }
 img {
     width: 100%;
@@ -8,6 +9,9 @@ img {
 /* colors */
 .ms_black {
     color: black;
+}
+.ms_grey {
+    color: grey;
 }
 /* buttons */
 .ms_button {
@@ -25,10 +29,21 @@ img {
     background-color: red;
     color: white;
 }
+.blue_button {
+    background-color: blue;
+    color: white;
+}
 /* Common */
 
 /* HEADER */
-
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    background-color: white;
+}
 /* Nav-top */
 .black_bar {
     height: 50px;
@@ -39,6 +54,7 @@ img {
     width: 5rem;
     margin-right: 1rem;
 }
+
 /* Nav-bottom */
 
 /* Menu-left */
@@ -56,11 +72,13 @@ img {
 /* MAIN */
 /* Jumbotron */
 .ms_jumbotron {
-    height: 500px;
+    padding: 20rem 0 2rem;
+    margin-top: 100px;
     color: white;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 .returnal_logo {
     width: 19rem;
@@ -77,4 +95,14 @@ img {
     border-radius: 15px;
     overflow: hidden;
     margin: 1rem auto
+}
+/* Ps5 */
+.ps5_banner {
+    margin: 4rem 0;
+}
+.sm_text {
+    text-transform: uppercase;
+    color: #0070d1;
+    font-size: .5rem;
+    font-weight: bold;
 }

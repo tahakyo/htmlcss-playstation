@@ -109,7 +109,7 @@ header {
     overflow: hidden;
     margin: 1rem auto
 }
-/* Ps5 */
+/* Ps5 section */
 .ps5_banner {
     margin: 4rem 0;
 }
@@ -118,4 +118,10 @@ header {
     color: #0070d1;
     font-size: .5rem;
     font-weight: bold;
+}
+/* Nuove uscite */
+.nuove_uscite {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 4rem 0 3rem;
 }

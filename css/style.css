@@ -21,6 +21,10 @@ img {
     padding: .3rem .8rem .2rem;
     font-size: .9rem;
 }
+.ps_plus_btn {
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
 .gray_button {
     background-color: #363636;
     color: white;
@@ -124,4 +128,20 @@ header {
     background-color: #1f1f1f;
     color: white;
     padding: 4rem 0 2rem;
+}
+/* Ps4 */
+.ps4 {
+    padding: 3rem 0;
+}
+/* Ps Plus */
+.ps_plus {
+    background-color: #bebcbb;
+}
+.ps_plus_logo {
+    width: 25rem;
+    padding: 1rem;
+}
+.ps_plus_monthly {
+    width: 20rem;
+    height: 100%;
 }

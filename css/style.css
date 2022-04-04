@@ -6,6 +6,9 @@ a {
 img {
     width: 100%;
 }
+ul {
+    list-style: none;
+}
 /* colors */
 .ms_black {
     color: black;
@@ -158,4 +161,19 @@ header {
 .ps_now_logo {
     width: 17rem;
     margin: 1rem 0;
+}
+/* FOOTER */
+footer {
+    background-color: #00439c;
+    color: white;
+    padding: 4rem 0;
+}
+.ps_logo {
+    width: 10rem;
+    margin-bottom: 1rem;
+
+}
+.globe_logo {
+    width: 1rem;
+    margin-right: .5rem;
 }

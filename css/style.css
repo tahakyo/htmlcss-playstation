@@ -169,11 +169,13 @@ footer {
     padding: 4rem 0;
 }
 .ps_logo {
-    width: 10rem;
+    width: 15%;
     margin-bottom: 1rem;
-
 }
-.globe_logo {
+.globe_logo::before {
+    content:'';
     width: 1rem;
-    margin-right: .5rem;
+}
+.sony_logo {
+    width: 25%;
 }

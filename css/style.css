@@ -25,6 +25,10 @@ img {
     background-color: #d9dadc;
     color: #2d64e6;
 }
+.ps_now_btn {
+    background-color:  #d9dadc;
+    color: black;
+}
 .gray_button {
     background-color: #363636;
     color: white;
@@ -144,4 +148,14 @@ header {
 .ps_plus_monthly {
     width: 20rem;
     height: 100%;
+}
+/* Ps Now */
+.ps_now {
+    background-color: #161c3b;
+    color: white;
+    padding: 2rem;
+}
+.ps_now_logo {
+    width: 17rem;
+    padding: 1rem;
 }
